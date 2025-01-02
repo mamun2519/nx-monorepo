@@ -17,7 +17,7 @@ const LoginPage = () => {
   const navigation = useNavigation();
 
   const isSubmitting = navigation.state === 'submitting';
-  console.log(actionData);
+
   return (
     <div>
       <Login actionData={actionData} isSubmitting={isSubmitting} />
