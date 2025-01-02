@@ -1,5 +1,6 @@
 import React from 'react';
 import { Login } from '@nx-monorepo/login';
+import { useNavigation } from '@remix-run/react';
 
 export const action = async ({ request }: { request: Request }) => {
   const formData = await request.formData();
@@ -12,6 +13,10 @@ export const action = async ({ request }: { request: Request }) => {
   };
 };
 const LoginPage = () => {
+  const navigation = useNavigation();
+
+  const isSubmitting = navigation.state === 'submitting';
+  console.log(isSubmitting);
   return (
     <div>
       <Login />
