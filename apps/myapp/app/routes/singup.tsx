@@ -1,11 +1,7 @@
 import React from 'react';
 
 const SingUpPage = () => {
-      return (
-            <div>
-             <SingUp     
-            </div>
-      );
+  return <div></div>;
 };
 
 export default SingUpPage;
