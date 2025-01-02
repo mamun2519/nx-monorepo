@@ -1,7 +1,9 @@
 import React from 'react';
 import { Login } from '@nx-monorepo/login';
 
-export const action = ({ request }) => {};
+export const action = ({ request }: { request: Request }) => {
+  return null;
+};
 const LoginPage = () => {
   return (
     <div>
