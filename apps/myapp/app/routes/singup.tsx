@@ -1,5 +1,7 @@
 const SingUpPage = () => {
-  return <div></div>;
+  return <div>
+      <SingupLib
+  </div>;
 };
 
 export default SingUpPage;
