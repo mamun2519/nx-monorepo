@@ -20,7 +20,7 @@ export function Login() {
           placeholder="Enter Your Email"
           id=""
         />
-        <button>Login</button>
+        <button className="bg-blue-400 text-white">Login</button>
       </div>
     </div>
   );
