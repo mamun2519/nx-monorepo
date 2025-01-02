@@ -1,6 +1,6 @@
 import styles from './singup.module.css';
 
-export function Singup() {
+function Singup() {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Singup!</h1>
