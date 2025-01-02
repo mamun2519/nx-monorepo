@@ -1,7 +1,7 @@
 import { Form } from '@remix-run/react';
 import styles from './login.module.css';
 
-export function Login() {
+export function Login({ actionData, isSubmitting }) {
   return (
     <div className={styles['container']}>
       <h1 className="text-center text-xl mt-10">Welcome to Login!</h1>
@@ -27,6 +27,14 @@ export function Login() {
           </button>
         </div>
       </Form>
+      {isSubmitting && <p>Loading..........</p>}
+      {actionData && (
+        <div className="text-center mt-10">
+          <h3>Login Information</h3>
+          <p>Email: {actionData?.email}</p>
+          <p>Password: {actionData?.password}</p>
+        </div>
+      )}
     </div>
   );
 }

@@ -20,7 +20,7 @@ const LoginPage = () => {
   console.log(actionData);
   return (
     <div>
-      <Login />
+      <Login actionData={actionData} isSubmitting={isSubmitting} />
     </div>
   );
 };
