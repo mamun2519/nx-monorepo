@@ -17,9 +17,9 @@ export function Login({ actionData, isSubmitting }) {
 
           <input
             className="border outline-gray-400 h-10 w-96 p-2"
-            type="text"
+            type="password"
             name="password"
-            placeholder="Enter Your Email"
+            placeholder="Enter Your Password"
             id=""
           />
           <button type="submit" className="bg-blue-600 text-white px-4 rounded">
