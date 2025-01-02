@@ -18,7 +18,7 @@ export function Login() {
           <input
             className="border outline-gray-400 h-10 w-96 p-2"
             type="text"
-            name="email"
+            name="password"
             placeholder="Enter Your Email"
             id=""
           />
