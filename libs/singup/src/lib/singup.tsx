@@ -1,6 +1,6 @@
 import styles from './singup.module.css';
 
-export default function Singup() {
+export function Singup() {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Singup!</h1>
@@ -8,3 +8,5 @@ export default function Singup() {
     </div>
   );
 }
+
+export default Singup;
