@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@nx-monorepo/login": ["libs/login/src/index.ts"],
-      "@nx-monorepo/login/server": ["libs/login/src/server.ts"]
+      "@nx-monorepo/login/server": ["libs/login/src/server.ts"],
+      "@nx-monorepo/singup": ["libs/singup/src/index.ts"],
+      "@nx-monorepo/singup/server": ["libs/singup/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
